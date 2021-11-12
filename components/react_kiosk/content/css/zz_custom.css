@@ -1,0 +1,151 @@
+.container {
+	width: fit-content;
+}
+
+.layout-container {
+	width: fit-content;	
+}
+
+layout-col {
+	width: fit-content !important;
+}
+
+.moduleContainer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+	width: fit-content;
+}
+.alert_card {
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+    margin: auto;
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: -10px 10px 20px 0 rgba(30,30,30,0.05);
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.alert_card .fas {
+    font-size: 7.5rem;
+
+}
+.alert_card .fa {
+    font-size: 7.5rem;
+
+}
+.alert_card p {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.alert_card:hover {
+	box-shadow: -10px 10px 20px 0 rgb(30 30 30 / 22%);
+	cursor: pointer;
+}
+    .span {
+    margin: 20px;
+
+}
+.title{
+        font-size: 23px;
+        font-weight: bold;
+}
+.total{
+        font-size: 15px;
+        font-weight: bold;
+        color: #000000;
+}
+.smallText{
+    font-size: 15px;
+}
+.colorRojo {color: #EE1D24 !important;}
+
+@media only screen and (max-width: 450px) {
+.col-med-3 {
+    width: 100%;
+  }
+}
+.pagetitle {
+  background-color    : rgba(255,255,255,0.0);
+  height              : 30px;
+  width               : 100%;
+  margin              : 20px 0 0 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+
+.pagetitle .dailysales {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 25.0px;
+  color               : rgba(103, 103, 103, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+
+.pagetitle .alllocations {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 157px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(26, 115, 232, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+
+.card-time {
+	float: right;
+}
+
+.btn-all-location {
+	margin-top: 3px;
+	float: right;
+}
+
+.btn-all-location button {
+	border: 1px solid blue;	
+}
+.id {
+	color: blue;
+}
+
+.clickable {
+	width: 100%;
+	display: inline-block; 
+}
+.default {
+	float: left;
+}
+.custom {
+	float: right;
+}
+.alertgreen {
+  color: greenyellow;
+}
+.alertred {
+  color: red;
+}
+.alertorange {
+  color: orange;
+}

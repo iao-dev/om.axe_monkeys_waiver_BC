@@ -1,0 +1,110 @@
+<!DOCTYPE f8component>
+
+<!-- Definition is how the system identifies your component -->
+<!-- className should be the same with Server.js file -->
+<definition>
+{
+	"id": "react_kiosk",
+	"label": "React kiosk",
+	"className": "ReactKioskServer",
+	renderable: true,
+	dependencies: ["react-core"]
+}
+</definition>
+
+<attributes>
+[
+   {
+      "name": "title",
+      "type": "text",
+      "attributes": {},
+      "labels": {
+         "label": "Title",
+         "labelp": "Title"
+      }
+   },
+   {
+      "type": "icon",
+      "attributes": {},
+      "labels": {
+         "label": "icon",
+         "labelp": "icons"
+      },
+      "name": "icon"
+   },
+   {
+      "type": "string",
+      "attributes": {},
+      "labels": {
+         "label": "Welcome Title",
+         "labelp": "welcomes"
+      },
+      "name": "welcometitle"
+   },
+   {
+      "type": "string",
+      "attributes": {},
+      "labels": {
+         "label": "page",
+         "labelp": "pages"
+      },
+      "name": "page"
+   }
+]
+</attributes>
+<attributes_layout>
+{
+   "version": 1,
+   "layout": [
+      {
+         "type": "section",
+         "colData": [
+            {
+               "column": 0
+            }
+         ],
+         "cols": [
+            [
+               {
+                  "type": "slot",
+                  "name": "title"
+               },
+               {
+                  "type": "slot",
+                  "name": "welcometitle"
+               },
+               {
+                  "type": "slot",
+                  "name": "icon"
+               },
+               {
+                  "type": "slot",
+                  "name": "page"
+               }
+            ]
+         ],
+         "guid": "cgp6ax",
+         "columns": 1
+      }
+   ],
+   "pageData": {}
+}
+</attributes_layout>
+<attributes_display_rules>
+[
+   {}
+]
+</attributes_display_rules>
+
+<style>
+
+
+</style>
+
+<!-- module file -->
+
+<!-- Path  -->
+<script>
+    const JKiosk = require('react_kiosk/JKiosk');
+    exports.component = ComponentUI.createReactComponent(JKiosk);
+</script>

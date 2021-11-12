@@ -1,0 +1,78 @@
+<!DOCTYPE f8component>
+
+<!-- Definition is how the system identifies your component -->
+<!-- className should be the same with Server.js file -->
+<definition>
+{
+	"id": "am_waiver",
+	"label": "Axe Monkeys Waiver",
+	"className": "amWaiverServer",
+	renderable: true,
+	dependencies: ["react-core"]
+}
+</definition>
+<attributes>
+[
+   {
+      "type": "choice",
+      "attributes": {
+         "choices_from": "bucket_list",
+         "bucket_location": "specify"
+      },
+      "labels": {
+         "label": "Bucket Axe Monkeys",
+         "labelp": "bucket_axe_monkeys"
+      },
+      "name": "signed_waiver"
+   }
+]
+</attributes>
+<attributes_layout>
+{
+   "version": 1,
+   "layout": [
+      {
+         "type": "section",
+         "colData": [],
+         "cols": [
+            [
+               {
+                  "name": "signed_waiver",
+                  "type": "slot"
+               }
+            ]
+         ],
+         "guid": "amteaz8m"
+      }
+   ],
+   "pageData": {}
+}
+</attributes_layout>
+<attributes_display_rules>
+[]
+</attributes_display_rules>
+
+<style>
+    .waiver_box {
+		border:2px solid green;
+		padding:5px;
+        width: 100%;
+        height: 45vh;
+		overflow:scroll;
+		overflow-x: hidden;
+		text-align:left;
+    }
+	.input-group {
+		margin:10px;
+	}
+	
+	.input-group-addon{
+			font-weight:bold;
+	}
+	
+</style>
+
+<script>
+    const amWaiver = require('am_waiver/amWaiver');
+    exports.component = ComponentUI.createReactComponent(amWaiver);
+</script>

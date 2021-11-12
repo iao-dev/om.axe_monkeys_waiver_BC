@@ -1,0 +1,86 @@
+@font-face {
+    font-family: Montserrat;
+    src: local("Montserrat"),
+         local("Montserrat"),
+         url(content/fonts/Montserrat.ttf);
+    font-weight: bold;
+  }
+div {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+	width: fit-content;
+}
+
+.layout-container {
+	width: fit-content;	
+}
+
+layout-col {
+	width: fit-content !important;
+}
+
+.moduleContainer {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+	width: fit-content;
+}
+
+@media only screen and (max-width: 450px) {
+.col-med-3 {
+    width: 100%;
+  }
+}
+.pagetitle {
+  background-color    : rgba(255,255,255,0.0);
+  height              : 30px;
+  width               : 100%;
+  margin              : 20px 0 0 0;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+
+.pagetitle .dailysales {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : -1px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 600;
+  font-style          : normal;
+  font-size           : 25.0px;
+  color               : rgba(103, 103, 103, 1.0);
+  text-align          : center;
+  line-height         : 30.0px;
+}
+
+.pagetitle .alllocations {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 7px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 157px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Montserrat", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 18.0px;
+  color               : rgba(26, 115, 232, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+
+.initDiv{
+  display: none;
+}
