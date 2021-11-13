@@ -1,0 +1,155 @@
+{
+  "bucket_data": {
+    "pages": {
+      "8c535195a22c4728a724ba55f0f5631b": {
+        "created": "1636549325118",
+        "id": "8c535195a22c4728a724ba55f0f5631b",
+        "layout": {
+          "config": {
+            "desktop": {
+              "label": "Desktop"
+            }
+          },
+          "layouts": {
+            "desktop": {
+              "__start__": {
+                "contains": [
+                  "component_3259f45a123e658d11f7373549459821"
+                ],
+                "h": "100%",
+                "id": "__start__",
+                "layout_type": "page_components",
+                "type": "container",
+                "w": "100%"
+              },
+              "component_3259f45a123e658d11f7373549459821": {
+                "attributes": {
+                  "bar_height": "fixed",
+                  "chart_title": "Signed Waivers by date",
+                  "clickable": "true",
+                  "component": "chart",
+                  "data_labels": "false",
+                  "datasets": [
+                    {
+                      "2": "count",
+                      "9": "bar",
+                      "bucket": "lzftsbk6",
+                      "color": "#d90808",
+                      "condition": "[[\"created\",\"gt\",\"custom://09e36ec2f5b94435a0cbc542ee4bf5c2\",\"15 days ago\"]]",
+                      "display_as": "bar",
+                      "id": "0d026558089bcbbdc6d18b395ae4f0f7",
+                      "label_slot": "created",
+                      "label_slot_timescale": "day",
+                      "parent_type": "bar",
+                      "title": "Signed Waivers",
+                      "value_slot": "bay",
+                      "value_type": "count",
+                      "yaxis_right": "0"
+                    }
+                  ],
+                  "dynamic_dataset": false,
+                  "height": 250,
+                  "horizontal": "0",
+                  "id": "6d46cb78b8a5d37d88aa71c9114851e8",
+                  "maximum_value": "100",
+                  "no_value_label": "No value",
+                  "pie_size": "98%",
+                  "show_legend": "bottom",
+                  "show_points": "true",
+                  "show_title": "top",
+                  "show_tooltips": true,
+                  "show_xaxis": true,
+                  "show_yaxis": true,
+                  "stacked": "0",
+                  "time_unit_for_dates": "day",
+                  "type": "bar",
+                  "yaxis_range": false,
+                  "yaxis_range_max": 100,
+                  "yaxis_range_min": 0
+                },
+                "component": "chart",
+                "h": "100%",
+                "id": "component_3259f45a123e658d11f7373549459821",
+                "name": "component_3259f45a123e658d11f7373549459821",
+                "needs_subpage_target": false,
+                "page_loading": false,
+                "type": "component",
+                "w": "100%"
+              }
+            }
+          },
+          "meta": {
+            "format": "multiple_layout",
+            "version": 1
+          }
+        },
+        "meta_classification": "",
+        "meta_datatag": "",
+        "meta_schema": "",
+        "name": "waiver_reports",
+        "owner": "d817a984596e41639d244fb1c332470e",
+        "page_vars": {
+          "layout": {
+            "layout": [
+              {
+                "colData": [ ],
+                "cols": [
+                  [
+                    {
+                      "name": "q",
+                      "type": "slot"
+                    },
+                    {
+                      "name": "bucket",
+                      "type": "slot"
+                    },
+                    {
+                      "name": "id",
+                      "type": "slot"
+                    }
+                  ]
+                ],
+                "type": "section"
+              }
+            ],
+            "version": 1
+          },
+          "slots": {
+            "bucket": {
+              "attributes": { },
+              "labels": {
+                "label": "Bucket",
+                "labelp": "Buckets"
+              },
+              "name": "bucket",
+              "type": "string"
+            },
+            "id": {
+              "attributes": { },
+              "labels": {
+                "label": "Id",
+                "labelp": "Ids"
+              },
+              "name": "id",
+              "type": "string"
+            },
+            "q": {
+              "attributes": { },
+              "labels": {
+                "label": "Query",
+                "labelp": "Queries"
+              },
+              "name": "q",
+              "type": "string"
+            }
+          }
+        },
+        "public": "0",
+        "ref_display": "waiver_reports",
+        "schema_version": "0.0",
+        "system_updated": "0",
+        "title": ""
+      }
+    }
+  }
+}

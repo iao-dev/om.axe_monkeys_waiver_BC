@@ -1,14 +1,3 @@
-@font-face {
-    font-family: Montserrat;
-    src: local("Montserrat"),
-         local("Montserrat"),
-         url(content/fonts/Montserrat.ttf);
-    font-weight: bold;
-  }
-div {
-    font-family: 'Montserrat', sans-serif;
-}
-
 .container {
 	width: fit-content;
 }

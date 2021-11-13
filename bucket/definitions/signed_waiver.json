@@ -1,0 +1,201 @@
+{
+    "bucket_definition": {
+        "lzftsbk6": {
+            "attributes": { },
+            "id": "lzftsbk6",
+            "labels": {
+                "label": "Signed Waiver",
+                "labelp": "Signed Waivers"
+            },
+            "name": "signed_waiver",
+            "slots": [
+                {
+                    "attributes": {
+                        "after_validation": "0",
+                        "before_validation": "0",
+                        "default_to_now": true,
+                        "format_string": "MM/DD/YYYY HH:mm:ss",
+                        "humanize": "0",
+                        "show_time_remaining": "0"
+                    },
+                    "labels": {
+                        "label": "Date",
+                        "labelp": "dates"
+                    },
+                    "name": "date",
+                    "type": "date_time"
+                },
+                {
+                    "attributes": {
+                        "alphanum_allow_dotdash": "false",
+                        "maxlength": "0",
+                        "only_alphanum": "false",
+                        "only_lowercase": "false",
+                        "only_uppercase": "false",
+                        "pattern_validation": "0"
+                    },
+                    "labels": {
+                        "label": "Minor 1",
+                        "labelp": "Minor 1s"
+                    },
+                    "name": "minor_1",
+                    "type": "string"
+                },
+                {
+                    "attributes": {
+                        "country_bucket": "tbt3thn9",
+                        "country_code": "false",
+                        "default_country": "US,+1",
+                        "maxlength": 10
+                    },
+                    "labels": {
+                        "label": "Phone",
+                        "labelp": "Phones"
+                    },
+                    "name": "phone",
+                    "type": "phone"
+                },
+                {
+                    "attributes": {
+                        "alphanum_allow_dotdash": "false",
+                        "maxlength": "0",
+                        "only_alphanum": "false",
+                        "only_lowercase": "false",
+                        "only_uppercase": "false",
+                        "pattern_validation": "0"
+                    },
+                    "labels": {
+                        "label": "Last Name",
+                        "labelp": "last names"
+                    },
+                    "name": "last_name",
+                    "type": "string"
+                },
+                {
+                    "attributes": {
+                        "alphanum_allow_dotdash": "false",
+                        "maxlength": "0",
+                        "only_alphanum": "false",
+                        "only_lowercase": "false",
+                        "only_uppercase": "false",
+                        "pattern_validation": "0"
+                    },
+                    "labels": {
+                        "label": "Minor 6",
+                        "labelp": "Minor 6s"
+                    },
+                    "name": "minor_6",
+                    "type": "string"
+                },
+                {
+                    "attributes": {
+                        "alphanum_allow_dotdash": "false",
+                        "maxlength": "0",
+                        "only_alphanum": "false",
+                        "only_lowercase": "false",
+                        "only_uppercase": "false",
+                        "pattern_validation": "0"
+                    },
+                    "labels": {
+                        "label": "Bay",
+                        "labelp": "bays"
+                    },
+                    "name": "bay",
+                    "type": "string"
+                },
+                {
+                    "attributes": {
+                        "alphanum_allow_dotdash": "false",
+                        "maxlength": "0",
+                        "only_alphanum": "false",
+                        "only_lowercase": "false",
+                        "only_uppercase": "false",
+                        "pattern_validation": "0"
+                    },
+                    "labels": {
+                        "label": "Minor 4",
+                        "labelp": "Minor 4s"
+                    },
+                    "name": "minor_4",
+                    "type": "string"
+                },
+                {
+                    "attributes": {
+                        "alphanum_allow_dotdash": "false",
+                        "maxlength": "0",
+                        "only_alphanum": "false",
+                        "only_lowercase": "false",
+                        "only_uppercase": "false",
+                        "pattern_validation": "0"
+                    },
+                    "labels": {
+                        "label": "First Name",
+                        "labelp": "first names"
+                    },
+                    "name": "first_name",
+                    "type": "string"
+                },
+                {
+                    "attributes": {
+                        "alphanum_allow_dotdash": "false",
+                        "maxlength": "0",
+                        "only_alphanum": "false",
+                        "only_lowercase": "false",
+                        "only_uppercase": "false",
+                        "pattern_validation": "0"
+                    },
+                    "labels": {
+                        "label": "Minor 5",
+                        "labelp": "Minor 5s"
+                    },
+                    "name": "minor_5",
+                    "type": "string"
+                },
+                {
+                    "attributes": {
+                        "hide_email_icon": "false"
+                    },
+                    "labels": {
+                        "label": "Email",
+                        "labelp": "emails"
+                    },
+                    "name": "email",
+                    "type": "email"
+                },
+                {
+                    "attributes": {
+                        "alphanum_allow_dotdash": "false",
+                        "maxlength": "0",
+                        "only_alphanum": "false",
+                        "only_lowercase": "false",
+                        "only_uppercase": "false",
+                        "pattern_validation": "0"
+                    },
+                    "labels": {
+                        "label": "Minor 2",
+                        "labelp": "Minor 2s"
+                    },
+                    "name": "minor_2",
+                    "type": "string"
+                },
+                {
+                    "attributes": {
+                        "alphanum_allow_dotdash": "false",
+                        "maxlength": "0",
+                        "only_alphanum": "false",
+                        "only_lowercase": "false",
+                        "only_uppercase": "false",
+                        "pattern_validation": "0"
+                    },
+                    "labels": {
+                        "label": "Minor 3",
+                        "labelp": "Minor 3s"
+                    },
+                    "name": "minor_3",
+                    "type": "string"
+                }
+            ],
+            "type": "records"
+        }
+    }
+}

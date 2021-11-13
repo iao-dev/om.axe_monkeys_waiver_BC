@@ -1,0 +1,137 @@
+{
+  "bucket_data": {
+    "pages": {
+      "d7cae5926f584aeab7342e2fd453d0fe": {
+        "created": "1636115583014",
+        "id": "d7cae5926f584aeab7342e2fd453d0fe",
+        "layout": {
+          "config": {
+            "desktop": {
+              "label": "Desktop"
+            }
+          },
+          "layouts": {
+            "desktop": {
+              "__start__": {
+                "contains": [
+                  "component_3037f3c426f202ae06e7f3e650444f32"
+                ],
+                "h": "100%",
+                "id": "__start__",
+                "layout_type": "page_components",
+                "type": "container",
+                "w": "100%"
+              },
+              "component_3037f3c426f202ae06e7f3e650444f32": {
+                "attributes": {
+                  "allow_sorting": "true",
+                  "bucket": "lzftsbk6",
+                  "columns": [
+                    "date",
+                    "bay",
+                    "first_name",
+                    "last_name",
+                    "email",
+                    "minor_1",
+                    "created"
+                  ],
+                  "component": "list",
+                  "disable_actions": "false",
+                  "disable_filterbuilder": "false",
+                  "disable_row_link": "false",
+                  "force_condition": "[]",
+                  "height": 300,
+                  "id": "3242d41db31e4c73902d03ff9ab7da05",
+                  "inline_details": false,
+                  "refresh_interval": 0,
+                  "show_tags": false,
+                  "skip_url_changes": false,
+                  "sort_descending": "0",
+                  "use_details": "false"
+                },
+                "component": "list",
+                "h": "100%",
+                "id": "component_3037f3c426f202ae06e7f3e650444f32",
+                "name": "component_3037f3c426f202ae06e7f3e650444f32",
+                "needs_subpage_target": false,
+                "page_loading": false,
+                "type": "component",
+                "w": "100%"
+              }
+            }
+          },
+          "meta": {
+            "format": "multiple_layout",
+            "version": 1
+          }
+        },
+        "meta_classification": "",
+        "meta_datatag": "",
+        "meta_schema": "",
+        "name": "waivers_signed",
+        "owner": "d817a984596e41639d244fb1c332470e",
+        "page_vars": {
+          "layout": {
+            "layout": [
+              {
+                "colData": [ ],
+                "cols": [
+                  [
+                    {
+                      "name": "q",
+                      "type": "slot"
+                    },
+                    {
+                      "name": "bucket",
+                      "type": "slot"
+                    },
+                    {
+                      "name": "id",
+                      "type": "slot"
+                    }
+                  ]
+                ],
+                "type": "section"
+              }
+            ],
+            "version": 1
+          },
+          "slots": {
+            "bucket": {
+              "attributes": { },
+              "labels": {
+                "label": "Bucket",
+                "labelp": "Buckets"
+              },
+              "name": "bucket",
+              "type": "string"
+            },
+            "id": {
+              "attributes": { },
+              "labels": {
+                "label": "Id",
+                "labelp": "Ids"
+              },
+              "name": "id",
+              "type": "string"
+            },
+            "q": {
+              "attributes": { },
+              "labels": {
+                "label": "Query",
+                "labelp": "Queries"
+              },
+              "name": "q",
+              "type": "string"
+            }
+          }
+        },
+        "public": "0",
+        "ref_display": "waivers_signed",
+        "schema_version": "0.0",
+        "system_updated": "0",
+        "title": ""
+      }
+    }
+  }
+}

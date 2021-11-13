@@ -1,0 +1,68 @@
+{
+  "bucket_data": {
+    "4dzwltxn": {
+      "acdb5534bf854d73b90caed95f135bf3": {
+        "area": "",
+        "created": "1636114527570",
+        "description": "",
+        "icon": "",
+        "id": "acdb5534bf854d73b90caed95f135bf3",
+        "meta_classification": "",
+        "meta_datatag": "",
+        "meta_schema": "",
+        "name": "Waivers",
+        "nav": {
+          "bundle": "dev.axe_monkeys_waivers",
+          "id": "",
+          "items": [
+            {
+              "bucket": "third_party_license",
+              "condition": "[]",
+              "id": "",
+              "label": "Waivers",
+              "newId": "99784115401e467e330c15cec736ee7e",
+              "sort_direction": "ascending",
+              "submenu": "0",
+              "type": "navigator_item_seperator",
+              "visibility": "admins"
+            },
+            {
+              "bucket": "third_party_license",
+              "condition": "[]",
+              "icon": "fontawesome-v5-solid:file-signature",
+              "id": "",
+              "label": "Waivers Signed",
+              "newId": "d2c0896ae72fc2f091e9532e497d431f",
+              "sort_direction": "ascending",
+              "submenu": "0",
+              "type": "navigator_item_url",
+              "url": "waivers_signed",
+              "visibility": "admins"
+            },
+            {
+              "bucket": "third_party_license",
+              "condition": "[]",
+              "icon": "fontawesome:file-text-o",
+              "id": "",
+              "label": "Reports",
+              "newId": "625910f0816d6aa5829cd71bc305275a",
+              "sort_direction": "ascending",
+              "submenu": "0",
+              "type": "navigator_item_url",
+              "url": "waiver_reports",
+              "visibility": "admins"
+            }
+          ],
+          "specify_access": true
+        },
+        "nav_type": "default",
+        "owner": "d817a984596e41639d244fb1c332470e",
+        "position": "0",
+        "ref_display": "Waivers",
+        "schema_version": "0.0",
+        "system_updated": "0",
+        "top_level_menu": "1"
+      }
+    }
+  }
+}
