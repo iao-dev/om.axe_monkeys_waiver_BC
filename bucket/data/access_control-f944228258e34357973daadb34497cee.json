@@ -1,0 +1,25 @@
+{
+  "bucket_data": {
+    "access_control": {
+      "f944228258e34357973daadb34497cee": {
+        "access": "",
+        "apply_to_member": "everyone",
+        "bundle_secured": "om.axe_monkeys_waivers",
+        "created": "1636858109794",
+        "group": "",
+        "id": "f944228258e34357973daadb34497cee",
+        "meta_classification": [
+          "bundle_access_control",
+          "access_control"
+        ],
+        "meta_datatag": "",
+        "meta_schema": "",
+        "order": "0",
+        "owner": "67024f9b88d6439998b97e7721c03339",
+        "schema_version": "0.0",
+        "system_updated": "0",
+        "title": "Waivers"
+      }
+    }
+  }
+}
